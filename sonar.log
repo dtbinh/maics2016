@@ -1,0 +1,3918 @@
+Timestamp 946685892858
+# nodes: 2; exp const: 30
+Allowed moves: FORWARD,LEFT
+Goal: LEFT{[,]}CENTER{[1.0,]}RIGHT{[,]}
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.84900004;CENTER:0.87100005;RIGHT:0.72200006
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.84900004;CENTER:0.794;RIGHT:0.72200006
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.78700006;CENTER:0.76600003;RIGHT:0.72
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.823;CENTER:0.79600006;RIGHT:0.72200006
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.81000006;CENTER:0.818;RIGHT:0.68500006
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.83100003;CENTER:0.83300006;RIGHT:0.689
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.78800005;CENTER:0.78800005;RIGHT:0.651
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:0.808;RIGHT:0.65800005
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.81000006;CENTER:0.96300006;RIGHT:0.651
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.823;CENTER:0.99300003;RIGHT:0.62200004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.734;CENTER:0.609;RIGHT:0.59800005
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.643;CENTER:0.624;RIGHT:0.60700005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.643;CENTER:0.62600005;RIGHT:0.597
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.261;CENTER:0.53400004;RIGHT:0.559
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.504;CENTER:0.555;RIGHT:0.572
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.50200003;CENTER:0.563;RIGHT:0.53800005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.58000004;CENTER:0.79600006;RIGHT:0.49100003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.78000003;RIGHT:0.614
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.582;CENTER:0.69500005;RIGHT:0.69600004
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.171;CENTER:0.559;RIGHT:0.689
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.66200006;CENTER:0.559;RIGHT:0.748
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.73600006;CENTER:0.326;RIGHT:0.679
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.156;CENTER:0.321;RIGHT:0.69500005
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.1630001;CENTER:0.483;RIGHT:0.69500005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.55300003;RIGHT:0.46400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.86100006;CENTER:0.321;RIGHT:0.36600003
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.047;CENTER:0.72800004;RIGHT:0.64500004
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.81700003;CENTER:1.1010001;RIGHT:0.36600003
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0890001;CENTER:1.074;RIGHT:0.33600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.34800002;RIGHT:0.321
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.87900007;CENTER:0.94600004;RIGHT:0.23500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.87900007;CENTER:0.95500004;RIGHT:0.24700001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.89400005;CENTER:0.933;RIGHT:0.19700001
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.933;CENTER:0.943;RIGHT:0.22100002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.87900007;CENTER:0.943;RIGHT:0.21700001
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.9620001;CENTER:0.93100005;RIGHT:0.19700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.984;CENTER:0.95600003;RIGHT:0.19900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.93100005;CENTER:0.89100003;RIGHT:0.19800001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.88600004;CENTER:0.827;RIGHT:0.22700001
+Planning
+Training step: currentMove is LEFT
+LEFT:0.77000004;CENTER:0.39200002;RIGHT:0.18400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.82500005;CENTER:0.8;RIGHT:0.18300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.869;CENTER:0.78800005;RIGHT:0.326
+Planning
+Training step: currentMove is LEFT
+LEFT:0.869;CENTER:0.78400004;RIGHT:0.75600004
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.40800002;CENTER:0.384;RIGHT:0.326
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.72;CENTER:0.523;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.87900007;CENTER:0.78000003;RIGHT:0.72800004
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.83400005;CENTER:0.827;RIGHT:0.698
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.749;CENTER:0.786;RIGHT:0.702
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.823;CENTER:0.721;RIGHT:0.68500006
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81000006;CENTER:0.64400005;RIGHT:0.65300006
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.77300006;CENTER:0.75600004;RIGHT:0.42800003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.772;CENTER:0.47500002;RIGHT:0.59000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.59000003;CENTER:0.49100003;RIGHT:0.554
+Planning
+Training step: currentMove is LEFT
+LEFT:0.59900004;CENTER:0.50600004;RIGHT:0.563
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.49100003;CENTER:0.51100004;RIGHT:0.563
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.574;CENTER:0.49600002;RIGHT:0.563
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.523;CENTER:0.47300002;RIGHT:0.57000005
+Planning
+Training step: currentMove is LEFT
+LEFT:0.73600006;CENTER:0.597;RIGHT:0.546
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.666;CENTER:0.563;RIGHT:0.559
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:0.55300003;RIGHT:0.563
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.518;CENTER:0.53400004;RIGHT:0.57000005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.523;CENTER:0.49600002;RIGHT:0.527
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.37;CENTER:0.326;RIGHT:0.42900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.40100002;CENTER:0.321;RIGHT:0.43500003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.416;CENTER:0.321;RIGHT:0.439
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.71000004;CENTER:0.633;RIGHT:0.42900002
+Planning
+Training step: currentMove is LEFT
+LEFT:0.76400006;CENTER:0.68100005;RIGHT:0.546
+Planning
+Training step: currentMove is LEFT
+LEFT:0.77000004;CENTER:0.68100005;RIGHT:0.42900002
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.76400006;CENTER:0.64100003;RIGHT:0.43500003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.651;CENTER:0.744;RIGHT:0.5
+Planning
+Training step: currentMove is LEFT
+LEFT:0.78800005;CENTER:0.574;RIGHT:0.586
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.189;CENTER:0.546;RIGHT:0.527
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.1830001;CENTER:0.53800005;RIGHT:0.595
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.9250001;CENTER:0.56700003;RIGHT:0.595
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.179;CENTER:0.47900003;RIGHT:0.537
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.164;CENTER:0.326;RIGHT:0.574
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.179;CENTER:0.63500005;RIGHT:0.573
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.166;CENTER:0.517;RIGHT:0.536
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.179;CENTER:0.588;RIGHT:0.544
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.156;CENTER:0.518;RIGHT:0.554
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.164;CENTER:0.504;RIGHT:0.559
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.2010001;CENTER:0.563;RIGHT:0.55300003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.78200006;CENTER:0.555;RIGHT:0.551
+Planning
+Training step: currentMove is LEFT
+LEFT:1.2270001;CENTER:0.51500005;RIGHT:0.546
+Planning
+Training step: currentMove is LEFT
+LEFT:1.225;CENTER:0.51500005;RIGHT:0.546
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.21;CENTER:0.51500005;RIGHT:0.551
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.166;CENTER:0.51500005;RIGHT:0.555
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.2270001;CENTER:1.572;RIGHT:0.555
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.75000006;CENTER:1.572;RIGHT:0.555
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.187;CENTER:0.591;RIGHT:0.555
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.5250001;CENTER:1.105;RIGHT:0.54200006
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1750001;CENTER:1.107;RIGHT:0.554
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.77800006;CENTER:0.726;RIGHT:0.551
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1550001;CENTER:1.0760001;RIGHT:0.63000005
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1730001;CENTER:1.092;RIGHT:0.52500004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1730001;CENTER:1.092;RIGHT:0.53400004
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.66800004;CENTER:1.08;RIGHT:0.62600005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.527;CENTER:0.586;RIGHT:0.53800005
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1270001;CENTER:1.042;RIGHT:0.53400004
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.97200006;CENTER:1.042;RIGHT:0.555
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.123;CENTER:1.0580001;RIGHT:0.546
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1190001;CENTER:1.052;RIGHT:0.573
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1190001;CENTER:1.052;RIGHT:0.586
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.121;CENTER:1.097;RIGHT:0.591
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.062;CENTER:1.097;RIGHT:0.572
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.09;CENTER:0.878;RIGHT:0.554
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.024;CENTER:0.998;RIGHT:0.578
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.042;CENTER:1.0;RIGHT:0.536
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.046;CENTER:1.0890001;RIGHT:0.554
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0660001;CENTER:1.0760001;RIGHT:0.532
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0660001;CENTER:1.093;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0380001;CENTER:1.028;RIGHT:0.53400004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0400001;CENTER:0.994;RIGHT:0.52500004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0450001;CENTER:1.0500001;RIGHT:0.569
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0300001;CENTER:1.0840001;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0150001;CENTER:1.044;RIGHT:0.56700003
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.9850001;CENTER:1.062;RIGHT:0.393
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.77400005;CENTER:1.202;RIGHT:0.393
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.97;CENTER:1.1350001;RIGHT:0.393
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.952;CENTER:2.147;RIGHT:0.661
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:1.166;RIGHT:0.661
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.933;CENTER:1.2080001;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:1.154;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.89900005;CENTER:1.1370001;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89900005;CENTER:0.887;RIGHT:0.794
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.87100005;CENTER:0.84200007;RIGHT:1.317
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.818;CENTER:0.822;RIGHT:0.62600005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.86300004;CENTER:0.757;RIGHT:0.754
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.032;CENTER:0.81000006;RIGHT:0.754
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.818;CENTER:0.80200005;RIGHT:0.754
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1500001;CENTER:2.5;RIGHT:0.393
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.9570001;CENTER:0.78000003;RIGHT:0.88500005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.84300005;CENTER:0.758;RIGHT:0.85300004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.3050001;CENTER:1.1370001;RIGHT:0.754
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.2780001;CENTER:0.597;RIGHT:0.76600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.9610001;CENTER:0.73;RIGHT:0.86100006
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.873;CENTER:0.73;RIGHT:0.84800005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.381;CENTER:0.73;RIGHT:0.873
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.86500007;CENTER:0.75000006;RIGHT:0.873
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.818;CENTER:0.71300006;RIGHT:0.77400005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.78800005;CENTER:0.492;RIGHT:0.804
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.89500004;CENTER:0.41200003;RIGHT:0.75600004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.90200007;CENTER:0.726;RIGHT:0.67
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.841;CENTER:0.726;RIGHT:0.68100005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.84300005;CENTER:0.726;RIGHT:0.68100005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.84300005;CENTER:0.73600006;RIGHT:0.702
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.83900005;CENTER:0.693;RIGHT:0.73
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.83900005;CENTER:0.69500005;RIGHT:0.71800005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.735;CENTER:0.73;RIGHT:0.67
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.73600006;CENTER:0.609;RIGHT:0.546
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.85600007;CENTER:0.544;RIGHT:0.609
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.823;CENTER:0.544;RIGHT:0.61700004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.86500007;CENTER:0.544;RIGHT:0.45600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.89300007;CENTER:0.544;RIGHT:0.563
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.878;CENTER:0.36200002;RIGHT:0.45200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.275;CENTER:0.63000005;RIGHT:0.536
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.559;CENTER:0.63900006;RIGHT:0.536
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.4150002;CENTER:0.47100002;RIGHT:0.527
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.77800006;CENTER:0.47100002;RIGHT:0.532
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.78800005;CENTER:0.47100002;RIGHT:0.527
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.841;CENTER:0.47100002;RIGHT:0.527
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.78800005;CENTER:0.82500005;RIGHT:0.34800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.76500005;CENTER:0.9710001;RIGHT:0.537
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.76500005;CENTER:0.804;RIGHT:0.509
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.70500004;CENTER:1.8130001;RIGHT:0.509
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.70500004;CENTER:1.8160001;RIGHT:0.509
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.81200004;CENTER:1.023;RIGHT:0.49800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.804;CENTER:0.86300004;RIGHT:0.51100004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.95500004;RIGHT:0.48100004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.77800006;RIGHT:0.45200002
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:1.107;RIGHT:0.448
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:2.5;RIGHT:0.46
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:2.5;RIGHT:0.47500002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.79200006;RIGHT:0.46
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.89500004;RIGHT:0.46400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:0.95400006;RIGHT:0.44500002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.77000004;RIGHT:0.439
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.726;CENTER:0.87700003;RIGHT:0.48100004
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.726;CENTER:2.5;RIGHT:0.47400004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.8730001;CENTER:0.81000006;RIGHT:0.469
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.866;CENTER:0.47400004;RIGHT:0.492
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.6790001;CENTER:0.47400004;RIGHT:0.48800004
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.866;CENTER:0.47400004;RIGHT:0.49
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.3490001;CENTER:0.586;RIGHT:0.49800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.87200004;CENTER:0.527;RIGHT:0.499
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.3720001;CENTER:0.47900003;RIGHT:0.661
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.271;CENTER:0.5;RIGHT:0.661
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.5810001;CENTER:0.527;RIGHT:0.661
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.91300005;CENTER:0.46400002;RIGHT:0.661
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.223;CENTER:0.45200002;RIGHT:0.48800004
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.238;CENTER:0.57000005;RIGHT:0.49800003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.76500005;CENTER:0.37600002;RIGHT:0.45200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1810001;CENTER:0.56100005;RIGHT:0.40800002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1830001;CENTER:0.37;RIGHT:0.416
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1810001;CENTER:0.37;RIGHT:0.41000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54;CENTER:0.37;RIGHT:0.40800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1550001;CENTER:0.349;RIGHT:0.40100002
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1470001;CENTER:2.5;RIGHT:0.49100003
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1470001;CENTER:2.5;RIGHT:0.48700002
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.098;CENTER:2.5;RIGHT:0.47300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.156;CENTER:0.321;RIGHT:0.49
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.131;CENTER:0.321;RIGHT:0.33400002
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.121;CENTER:2.5;RIGHT:0.347
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1140001;CENTER:0.321;RIGHT:0.33400002
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.093;CENTER:1.0760001;RIGHT:0.33800003
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0990001;CENTER:2.5;RIGHT:0.365
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.092;CENTER:2.5;RIGHT:0.34800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0890001;CENTER:0.326;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0680001;CENTER:0.326;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.082;CENTER:0.326;RIGHT:0.36600003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0760001;CENTER:0.324;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.062;CENTER:0.324;RIGHT:0.19500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.046;CENTER:0.324;RIGHT:0.22800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.054;CENTER:0.78800005;RIGHT:0.32200003
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.827;CENTER:1.866;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.054;CENTER:1.866;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.052;CENTER:1.381;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0300001;CENTER:0.492;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0120001;CENTER:1.0760001;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:1.0600001;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.97;CENTER:1.0600001;RIGHT:0.328
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.74;CENTER:1.5270001;RIGHT:0.289
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:2.028;RIGHT:0.24300002
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.92100006;CENTER:2.028;RIGHT:0.24100001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.90800005;CENTER:0.9250001;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.878;CENTER:0.69600004;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.86500007;CENTER:0.551;RIGHT:0.492
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89300007;CENTER:0.91600007;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.79200006;CENTER:0.90700006;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.79600006;CENTER:0.72;RIGHT:0.43300003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.78000003;CENTER:0.68100005;RIGHT:0.42000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.804;CENTER:0.674;RIGHT:0.37600002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.77300006;CENTER:0.63900006;RIGHT:0.40100002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.757;CENTER:0.757;RIGHT:0.41200003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.757;CENTER:0.757;RIGHT:0.397
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.762;CENTER:0.75000006;RIGHT:0.39900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.77800006;CENTER:0.73600006;RIGHT:0.404
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.794;CENTER:0.71800005;RIGHT:0.42900002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.76400006;CENTER:0.693;RIGHT:0.41200003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.679;CENTER:0.744;RIGHT:0.40300003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.689;CENTER:0.744;RIGHT:0.418
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.68700004;CENTER:0.744;RIGHT:0.418
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.70500004;CENTER:0.744;RIGHT:1.2010001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.721;CENTER:0.73600006;RIGHT:0.66800004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.712;CENTER:0.71400005;RIGHT:1.171
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.697;CENTER:0.70500004;RIGHT:0.69600004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.661;CENTER:0.697;RIGHT:0.70600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.72;CENTER:0.69600004;RIGHT:0.72
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.563;CENTER:0.693;RIGHT:0.762
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.65300006;CENTER:0.693;RIGHT:0.77900004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67700005;CENTER:0.67200005;RIGHT:0.78800005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.68700004;CENTER:0.693;RIGHT:0.78800005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.74200004;CENTER:0.68700004;RIGHT:0.67200005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.69600004;CENTER:0.643;RIGHT:0.57000005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.64100003;CENTER:0.66;RIGHT:0.702
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.64100003;CENTER:0.674;RIGHT:0.697
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.64100003;CENTER:0.67200005;RIGHT:0.721
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.83900005;CENTER:0.62600005;RIGHT:0.712
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.83100003;CENTER:0.63000005;RIGHT:0.634
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.83400005;CENTER:0.61700004;RIGHT:0.64100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.84900004;CENTER:0.66800004;RIGHT:0.64400005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.59800005;CENTER:0.65400004;RIGHT:0.64500004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.574;CENTER:0.609;RIGHT:0.597
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.58000004;CENTER:0.59000003;RIGHT:0.59800005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.76500005;CENTER:0.57600003;RIGHT:0.588
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.754;CENTER:0.569;RIGHT:0.55300003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.754;CENTER:0.569;RIGHT:0.536
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.754;CENTER:0.537;RIGHT:0.52500004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.726;CENTER:0.52500004;RIGHT:0.504
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.70500004;CENTER:0.504;RIGHT:0.48800004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:0.509;RIGHT:0.46
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67;CENTER:0.42800003;RIGHT:0.437
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.551;CENTER:0.326;RIGHT:0.42700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.634;CENTER:0.38000003;RIGHT:0.41200003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.35700002;RIGHT:0.40100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.33;RIGHT:0.38200003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.58000004;CENTER:0.321;RIGHT:0.36100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.555;CENTER:0.326;RIGHT:0.347
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54;CENTER:0.321;RIGHT:0.32900003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.527;CENTER:0.326;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.504;CENTER:0.326;RIGHT:0.282
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.517;CENTER:0.33600003;RIGHT:0.296
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.517;CENTER:0.321;RIGHT:0.29000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53400004;CENTER:0.34800002;RIGHT:0.29000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.55300003;CENTER:0.559;RIGHT:0.29000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.554;CENTER:0.259;RIGHT:0.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.535;CENTER:0.38200003;RIGHT:0.273
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.517;CENTER:0.504;RIGHT:0.23500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.324;CENTER:0.32200003;RIGHT:0.19800001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.504;CENTER:0.32200003;RIGHT:0.20400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.36400002;CENTER:0.27800003;RIGHT:0.21100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.50600004;CENTER:0.263;RIGHT:0.209
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.64400005;CENTER:0.326;RIGHT:0.21100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32900003;CENTER:0.23500001;RIGHT:0.21200001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32900003;CENTER:0.20500001;RIGHT:0.22100002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.16600001;RIGHT:0.19100001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.38900003;CENTER:0.416;RIGHT:0.185
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.41000003;CENTER:0.42000002;RIGHT:0.185
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.42000002;CENTER:0.425;RIGHT:0.18900001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.44300002;CENTER:0.42700002;RIGHT:0.18900001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.446;CENTER:0.425;RIGHT:0.19100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.45400003;CENTER:0.42900002;RIGHT:0.19100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.47400004;CENTER:0.41200003;RIGHT:0.185
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.397;RIGHT:0.17400001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.47100002;CENTER:0.36600003;RIGHT:0.162
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.37600002;RIGHT:0.17500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.744;CENTER:0.393;RIGHT:0.179
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.712;CENTER:0.393;RIGHT:0.17300001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.38000003;CENTER:0.384;RIGHT:0.18100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.38000003;CENTER:0.38900003;RIGHT:0.18300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.38000003;CENTER:0.38300002;RIGHT:0.18300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.397;CENTER:0.34500003;RIGHT:0.17
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.72900003;CENTER:0.35700002;RIGHT:0.298
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.43300003;CENTER:0.36200002;RIGHT:0.298
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.73;CENTER:0.36600003;RIGHT:0.298
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.731;CENTER:0.36100003;RIGHT:0.298
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.46;CENTER:0.33;RIGHT:0.259
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.35500002;CENTER:0.321;RIGHT:0.32200003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.19000001;CENTER:0.326;RIGHT:0.22000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.22500001;RIGHT:0.22500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.666;CENTER:0.321;RIGHT:0.22900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.66800004;CENTER:0.326;RIGHT:0.22000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.65400004;CENTER:0.321;RIGHT:0.22500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67200005;CENTER:0.721;RIGHT:0.22900002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.661;CENTER:0.158;RIGHT:0.22700001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.63500005;CENTER:0.559;RIGHT:0.19000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.64900005;CENTER:0.326;RIGHT:0.19500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.651;CENTER:0.66800004;RIGHT:0.19900002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.65800005;CENTER:0.326;RIGHT:0.19900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67200005;CENTER:0.67200005;RIGHT:0.20300001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67200005;CENTER:0.679;RIGHT:0.20300001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.349;CENTER:0.41200003;RIGHT:0.19900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.554;CENTER:0.33800003;RIGHT:0.19700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.62600005;CENTER:0.536;RIGHT:0.17400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.61800003;CENTER:0.49800003;RIGHT:0.164
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.544;CENTER:0.58100003;RIGHT:0.164
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.586;CENTER:0.59800005;RIGHT:0.15400001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.58100003;CENTER:0.591;RIGHT:0.158
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.59900004;CENTER:0.586;RIGHT:0.17
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.555;CENTER:0.51100004;RIGHT:0.17
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.59800005;CENTER:0.51100004;RIGHT:0.17
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.633;CENTER:0.49600002;RIGHT:0.37
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.64100003;CENTER:0.504;RIGHT:0.37600002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.62600005;CENTER:0.42800003;RIGHT:0.34800002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.536;RIGHT:0.35700002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.5;CENTER:0.537;RIGHT:0.36400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.40300003;CENTER:0.33400002;RIGHT:0.36100003
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.3720001;CENTER:0.321;RIGHT:0.35700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.418;CENTER:0.40300003;RIGHT:0.35300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.4660001;CENTER:0.326;RIGHT:0.37
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32900003;CENTER:0.39200002;RIGHT:0.365
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.4900001;CENTER:0.372;RIGHT:0.36600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.45600003;CENTER:0.321;RIGHT:0.349
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.4480001;CENTER:0.43500003;RIGHT:0.33400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.4480001;CENTER:0.425;RIGHT:0.34
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.425;CENTER:0.411;RIGHT:0.34
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.43300003;CENTER:0.404;RIGHT:0.34
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.483;CENTER:0.39100003;RIGHT:0.349
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.49800003;CENTER:0.372;RIGHT:0.34800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.39900002;CENTER:0.33600003;RIGHT:0.36100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.34800002;CENTER:0.286;RIGHT:0.397
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.442;CENTER:0.42800003;RIGHT:0.40300003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32900003;CENTER:0.418;RIGHT:0.40100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36400002;CENTER:0.39900002;RIGHT:0.39900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.34800002;RIGHT:0.37
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.328;RIGHT:0.36100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.36600003;RIGHT:0.32900003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.353;CENTER:0.35700002;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.22500001;RIGHT:0.30200002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.332;CENTER:0.19900002;RIGHT:0.28800002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.2900001;CENTER:0.120000005;RIGHT:0.25100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1110001;CENTER:0.120000005;RIGHT:0.263
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1500001;CENTER:0.273;RIGHT:0.263
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.315;CENTER:0.22500001;RIGHT:0.24700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.3180001;CENTER:0.21900001;RIGHT:0.24900001
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.317;CENTER:0.20400001;RIGHT:0.24900001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2620001;CENTER:0.113000005;RIGHT:0.20400001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.274;CENTER:0.112;RIGHT:0.21100001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.273;CENTER:1.1220001;RIGHT:0.20400001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.2440001;CENTER:1.1220001;RIGHT:0.18300001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.2360001;CENTER:1.1220001;RIGHT:0.17300001
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.84000003;CENTER:1.1220001;RIGHT:0.157
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.84000003;CENTER:1.1220001;RIGHT:0.149
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.84000003;CENTER:1.1220001;RIGHT:0.13800001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.113;CENTER:1.1220001;RIGHT:0.13000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.164;CENTER:0.96300006;RIGHT:0.12100001
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.014;CENTER:0.99300003;RIGHT:0.109000005
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0450001;CENTER:0.95600003;RIGHT:0.11400001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.138;CENTER:1.016;RIGHT:0.11400001
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.869;CENTER:1.0200001;RIGHT:0.078
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1520001;CENTER:1.1730001;RIGHT:0.12100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.156;CENTER:0.998;RIGHT:0.13000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.131;CENTER:0.71400005;RIGHT:0.78800005
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.128;CENTER:0.95500004;RIGHT:0.10300001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1750001;CENTER:2.5;RIGHT:0.80200005
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1140001;CENTER:0.93100005;RIGHT:0.072000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0;CENTER:0.947;RIGHT:0.058000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.121;CENTER:0.94500005;RIGHT:0.058000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.123;CENTER:0.93700004;RIGHT:0.058000002
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1290001;CENTER:1.1290001;RIGHT:0.051000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0680001;CENTER:0.86100006;RIGHT:0.067
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.182;CENTER:1.062;RIGHT:0.79200006
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.189;CENTER:0.929;RIGHT:0.83500004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.113;CENTER:1.0760001;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.113;CENTER:1.074;RIGHT:0.20400001
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.65300006;CENTER:1.074;RIGHT:0.79200006
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.65300006;CENTER:1.042;RIGHT:0.77300006
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81700003;CENTER:0.901;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.9480001;CENTER:0.96400005;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0320001;CENTER:0.77900004;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.84900004;CENTER:0.933;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.841;CENTER:0.9620001;RIGHT:0.22000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.65400004;CENTER:0.693;RIGHT:0.71000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.572;CENTER:0.79600006;RIGHT:0.689
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.572;CENTER:0.776;RIGHT:0.69600004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.73600006;CENTER:0.73600006;RIGHT:0.68700004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.748;CENTER:0.71800005;RIGHT:0.69600004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.77000004;CENTER:0.71000004;RIGHT:0.698
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.93700004;CENTER:0.68100005;RIGHT:0.68700004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.762;CENTER:0.651;RIGHT:0.68
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.758;CENTER:0.79600006;RIGHT:0.674
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.75600004;CENTER:0.77400005;RIGHT:0.67200005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:0.72800004;RIGHT:0.661
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.73600006;CENTER:0.70600003;RIGHT:0.65800005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.87700003;CENTER:0.63500005;RIGHT:0.63900006
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.77300006;CENTER:0.786;RIGHT:0.643
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.79200006;CENTER:0.77400005;RIGHT:0.643
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.81000006;CENTER:0.754;RIGHT:0.64400005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.82500005;CENTER:0.75600004;RIGHT:0.65400004
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.7540001;CENTER:0.76400006;RIGHT:0.643
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.98;CENTER:0.569;RIGHT:0.63000005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.7770001;CENTER:0.748;RIGHT:0.666
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2;CENTER:0.70600003;RIGHT:0.651
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.947;CENTER:0.70400006;RIGHT:0.68500006
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.7090001;CENTER:0.68;RIGHT:0.744
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.217;CENTER:0.282;RIGHT:0.744
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.87900007;CENTER:0.586;RIGHT:0.632
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2360001;CENTER:0.537;RIGHT:0.61800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2190001;CENTER:0.68500006;RIGHT:0.72200006
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.76500005;CENTER:0.35700002;RIGHT:0.614
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.21;CENTER:0.43500003;RIGHT:0.605
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.50600004;CENTER:0.5;RIGHT:0.51900005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.21;CENTER:0.60300004;RIGHT:0.61600006
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2360001;CENTER:0.74200004;RIGHT:0.698
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.399;CENTER:0.537;RIGHT:0.59900004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:0.50600004;RIGHT:0.605
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1810001;CENTER:0.36400002;RIGHT:0.61800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.70600003;CENTER:0.62600005;RIGHT:0.63500005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.074;CENTER:0.588;RIGHT:0.61700004
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.171;CENTER:0.72900003;RIGHT:0.523
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1140001;CENTER:0.53400004;RIGHT:0.54200006
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.179;CENTER:0.504;RIGHT:0.569
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.77000004;CENTER:0.59000003;RIGHT:0.51100004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0890001;CENTER:0.61600006;RIGHT:0.544
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.97;CENTER:0.586;RIGHT:0.50600004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.082;CENTER:0.586;RIGHT:0.544
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.823;CENTER:0.58000004;RIGHT:0.51000005
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1450001;CENTER:0.61600006;RIGHT:0.508
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.166;CENTER:0.49100003;RIGHT:0.509
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.57000005;CENTER:0.5;RIGHT:0.517
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.573;CENTER:0.48700002;RIGHT:0.51500005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1140001;CENTER:0.47300002;RIGHT:0.523
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.143;CENTER:0.693;RIGHT:0.51500005
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1620001;CENTER:0.595;RIGHT:0.492
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1370001;CENTER:0.55700004;RIGHT:0.49100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.115;CENTER:0.34;RIGHT:0.46400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0830001;CENTER:0.32900003;RIGHT:0.418
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0830001;CENTER:0.47400004;RIGHT:0.47100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.121;CENTER:0.33;RIGHT:0.42000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0840001;CENTER:0.326;RIGHT:0.39900002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0120001;CENTER:0.321;RIGHT:0.33600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0120001;CENTER:0.41000003;RIGHT:0.42700002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.397;CENTER:0.393;RIGHT:0.374
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.40100002;CENTER:0.37600002;RIGHT:0.37600002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.386;CENTER:0.36600003;RIGHT:0.37600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.404;CENTER:0.35700002;RIGHT:0.38000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.384;CENTER:0.349;RIGHT:0.372
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.393;CENTER:0.35300002;RIGHT:0.372
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.39100003;CENTER:0.374;RIGHT:0.372
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.39100003;CENTER:0.321;RIGHT:0.33800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.98600006;CENTER:0.326;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.97200006;CENTER:0.326;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.98200005;CENTER:0.326;RIGHT:0.35700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.614;CENTER:0.87900007;RIGHT:0.393
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.96000004;CENTER:0.87900007;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.952;CENTER:0.83500004;RIGHT:0.35300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.93900007;CENTER:0.42000002;RIGHT:0.347
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.404;CENTER:0.416;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89400005;CENTER:0.36600003;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.85600007;CENTER:0.35500002;RIGHT:0.32900003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.841;CENTER:0.326;RIGHT:0.328
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.83100003;CENTER:0.42900002;RIGHT:0.26700002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.818;CENTER:0.721;RIGHT:0.279
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.818;CENTER:0.578;RIGHT:0.27800003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.81900007;CENTER:0.726;RIGHT:0.27800003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.82400006;CENTER:0.74200004;RIGHT:0.26500002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.83400005;CENTER:0.536;RIGHT:0.28800002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.827;CENTER:0.72800004;RIGHT:0.27400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.82600003;CENTER:0.73600006;RIGHT:0.28
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.827;CENTER:0.721;RIGHT:0.28
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81900007;CENTER:0.689;RIGHT:0.29000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.79600006;CENTER:0.666;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.77300006;CENTER:0.63900006;RIGHT:0.33400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.757;CENTER:0.59800005;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.527;CENTER:0.582;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.509;CENTER:0.563;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.143;CENTER:0.559;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.702;CENTER:0.536;RIGHT:0.49
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.569;CENTER:0.527;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.693;CENTER:0.504;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.693;CENTER:0.49600002;RIGHT:0.446
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.693;CENTER:0.49600002;RIGHT:0.42000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.693;CENTER:0.45400003;RIGHT:0.46400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.64500004;CENTER:0.46400002;RIGHT:0.439
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.64500004;CENTER:0.455;RIGHT:0.41000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.51000005;RIGHT:0.38000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.509;CENTER:0.62600005;RIGHT:0.38000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.679;CENTER:0.45400003;RIGHT:0.38000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.65400004;CENTER:0.45400003;RIGHT:0.38000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.79200006;CENTER:0.59800005;RIGHT:0.074
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.79200006;CENTER:0.60700005;RIGHT:0.078
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.88600004;CENTER:0.61700004;RIGHT:0.078
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.679;CENTER:0.61700004;RIGHT:0.078
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.679;CENTER:0.61700004;RIGHT:0.078
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.679;CENTER:0.61700004;RIGHT:0.082
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.65800005;CENTER:0.744;RIGHT:0.082
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.573;CENTER:0.744;RIGHT:0.328
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.573;CENTER:0.744;RIGHT:0.347
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.67200005;CENTER:0.595;RIGHT:0.349
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.563;RIGHT:0.349
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.697;CENTER:0.721;RIGHT:0.68
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.697;CENTER:0.324;RIGHT:0.43300003
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.697;CENTER:2.5;RIGHT:0.41000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.697;CENTER:0.49600002;RIGHT:0.42700002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.64900005;CENTER:0.614;RIGHT:0.446
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.51100004;CENTER:0.446;RIGHT:0.46
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.59900004;CENTER:0.43300003;RIGHT:0.45600003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.609;CENTER:0.44300002;RIGHT:0.462
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.624;CENTER:0.44300002;RIGHT:0.455
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0580001;CENTER:0.89300007;RIGHT:0.46
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.68100005;CENTER:0.574;RIGHT:0.37600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.59800005;CENTER:0.75000006;RIGHT:0.411
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.59800005;CENTER:0.462;RIGHT:0.46400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.031;CENTER:0.365;RIGHT:0.372
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.5250001;CENTER:0.365;RIGHT:0.37600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:0.88600004;RIGHT:0.47500002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:0.326;RIGHT:0.393
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:0.326;RIGHT:0.42900002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.91700006;CENTER:0.326;RIGHT:0.40800002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.48;CENTER:0.75600004;RIGHT:0.33800003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81200004;CENTER:0.757;RIGHT:0.44300002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.33400002;CENTER:0.34;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.4260001;CENTER:0.425;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.4180001;CENTER:0.42700002;RIGHT:0.33400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.89100003;CENTER:0.40300003;RIGHT:0.33
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.37600002;CENTER:0.37500003;RIGHT:0.416
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.4480001;CENTER:0.374;RIGHT:0.42800003
+Exploring
+Training step: currentMove is LEFT
+LEFT:2.5;CENTER:0.55;RIGHT:0.455
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:1.156;RIGHT:0.49800003
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:1.156;RIGHT:0.51900005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.689;CENTER:0.42800003;RIGHT:0.437
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.6630001;CENTER:0.45600003;RIGHT:0.50600004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.6630001;CENTER:0.45600003;RIGHT:0.50600004
+Exploring
+Training step: currentMove is FORWARD
+LEFT:1.0200001;CENTER:0.439;RIGHT:0.42000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0200001;CENTER:0.44700003;RIGHT:0.397
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.2950001;CENTER:0.44700003;RIGHT:0.39200002
+Planning
+Training step: currentMove is LEFT
+LEFT:2.2570002;CENTER:0.624;RIGHT:0.37
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.07;CENTER:0.45200002;RIGHT:0.35700002
+Planning
+Training step: currentMove is LEFT
+LEFT:2.5;CENTER:0.40800002;RIGHT:0.36600003
+Exploring
+Training step: currentMove is FORWARD
+LEFT:2.5;CENTER:0.37;RIGHT:0.36200002
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1960001;CENTER:0.37;RIGHT:0.36600003
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.2410002;CENTER:1.3950001;RIGHT:0.347
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.2350001;CENTER:1.3950001;RIGHT:0.33600003
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.2350001;CENTER:1.3950001;RIGHT:0.33400002
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.2280002;CENTER:1.3950001;RIGHT:0.33600003
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.368;CENTER:1.3950001;RIGHT:0.33
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.219;CENTER:1.406;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.89500004;CENTER:1.4120001;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.86500007;CENTER:0.97400004;RIGHT:0.30200002
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.887;CENTER:1.353;RIGHT:0.273
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.161;CENTER:0.96400005;RIGHT:0.25100002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.59900004;CENTER:0.933;RIGHT:0.22700001
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.016;CENTER:0.81000006;RIGHT:0.84900004
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0380001;CENTER:0.81000006;RIGHT:0.20400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.001;CENTER:0.75000006;RIGHT:0.20700002
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.99000007;CENTER:1.031;RIGHT:0.21200001
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0370001;CENTER:1.031;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.016;CENTER:1.031;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.062;CENTER:0.72800004;RIGHT:0.22800002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.873;CENTER:0.689;RIGHT:0.321
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0020001;CENTER:0.68700004;RIGHT:0.24900001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.98600006;CENTER:0.64900005;RIGHT:0.158
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.984;CENTER:0.75600004;RIGHT:0.158
+Planning
+Training step: currentMove is LEFT
+LEFT:0.772;CENTER:0.64500004;RIGHT:0.156
+Planning
+Training step: currentMove is LEFT
+LEFT:0.77800006;CENTER:0.651;RIGHT:0.156
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.99300003;CENTER:0.66;RIGHT:0.156
+Planning
+Training step: currentMove is LEFT
+LEFT:1.0120001;CENTER:0.66200006;RIGHT:0.156
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.99700004;CENTER:0.65300006;RIGHT:0.156
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.0070001;CENTER:2.5;RIGHT:0.324
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.84900004;CENTER:2.5;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.84900004;CENTER:2.5;RIGHT:0.321
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.84900004;CENTER:0.734;RIGHT:0.321
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.008;CENTER:0.734;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.5500001;CENTER:0.734;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.225;CENTER:1.008;RIGHT:0.32900003
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.225;CENTER:1.008;RIGHT:0.326
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.5510001;CENTER:1.008;RIGHT:0.69600004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.5270001;CENTER:1.008;RIGHT:0.66200006
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.9250001;CENTER:1.008;RIGHT:0.61700004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1270001;CENTER:1.008;RIGHT:0.48800004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.4970001;CENTER:1.008;RIGHT:0.517
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.48;CENTER:1.008;RIGHT:0.51100004
+At goal
+Training step: currentMove is FORWARD
+LEFT:1.1470001;CENTER:1.008;RIGHT:0.469
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.45;CENTER:0.45200002;RIGHT:0.44700003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.823;CENTER:0.8880001;RIGHT:0.43600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.87700003;CENTER:0.527;RIGHT:0.40100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.422;CENTER:0.527;RIGHT:0.41000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.883;CENTER:0.53400004;RIGHT:0.404
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.414;CENTER:0.53400004;RIGHT:0.40100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.90800005;CENTER:0.81000006;RIGHT:0.36600003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.75600004;CENTER:0.804;RIGHT:0.35500002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.3510001;CENTER:0.804;RIGHT:0.33600003
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.325;CENTER:0.76600003;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.317;CENTER:0.365;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.75600004;CENTER:0.365;RIGHT:0.573
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.75600004;CENTER:0.726;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.274;CENTER:0.70600003;RIGHT:0.298
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.71800005;CENTER:0.64500004;RIGHT:0.273
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.25;CENTER:0.66800004;RIGHT:0.289
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.25;CENTER:0.651;RIGHT:0.29700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.772;CENTER:0.674;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.772;CENTER:0.63000005;RIGHT:0.29700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.2040001;CENTER:0.63000005;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1350001;CENTER:0.578;RIGHT:0.22700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.171;CENTER:0.55300003;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1470001;CENTER:0.53400004;RIGHT:0.321
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1470001;CENTER:0.517;RIGHT:0.19100001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.86100006;CENTER:0.48100004;RIGHT:0.19700001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.62600005;CENTER:0.49600002;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.1220001;CENTER:0.48800004;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1220001;CENTER:0.49100003;RIGHT:0.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0680001;CENTER:0.504;RIGHT:0.492
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.1140001;CENTER:0.49;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.093;CENTER:0.446;RIGHT:0.44300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.462;CENTER:0.43300003;RIGHT:0.393
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0450001;CENTER:0.40800002;RIGHT:0.393
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.47400004;CENTER:0.39100003;RIGHT:0.38900003
+Exploring
+Training step: currentMove is LEFT
+LEFT:1.0120001;CENTER:0.374;RIGHT:0.34500003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.469;CENTER:0.347;RIGHT:0.33400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0;CENTER:0.372;RIGHT:0.36200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:1.0070001;CENTER:0.35500002;RIGHT:0.36200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89300007;CENTER:0.35700002;RIGHT:0.36200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.984;CENTER:0.34100002;RIGHT:0.36200002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36600003;CENTER:0.326;RIGHT:0.29700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.328;CENTER:0.28800002;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.93100005;CENTER:0.27100003;RIGHT:0.273
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.90700006;CENTER:0.24900001;RIGHT:0.27100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.34100002;CENTER:0.22800002;RIGHT:0.26700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.21100001;RIGHT:0.259
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.20300001;RIGHT:0.263
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.326;RIGHT:0.257
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.827;CENTER:0.326;RIGHT:0.27100003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.19900002;CENTER:0.273;RIGHT:0.26500002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.326;RIGHT:0.24900001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.841;CENTER:0.326;RIGHT:0.25100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.324;RIGHT:0.25100002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.326;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.933;CENTER:0.29700002;RIGHT:0.263
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.96000004;CENTER:0.321;RIGHT:0.28
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.93100005;CENTER:0.13000001;RIGHT:0.24300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.90700006;CENTER:0.09900001;RIGHT:0.21700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.42000002;CENTER:0.321;RIGHT:0.185
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.84300005;CENTER:0.83300006;RIGHT:0.17400001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81900007;CENTER:0.823;RIGHT:0.157
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.79600006;CENTER:0.794;RIGHT:0.13800001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.754;CENTER:0.757;RIGHT:0.094000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.754;CENTER:0.74200004;RIGHT:0.059000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.68700004;CENTER:0.68500006;RIGHT:1.13
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.70000005;CENTER:0.698;RIGHT:1.13
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.697;CENTER:0.698;RIGHT:1.13
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.71000004;RIGHT:1.13
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.71400005;CENTER:0.66800004;RIGHT:1.13
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.721;CENTER:0.72;RIGHT:1.13
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.744;CENTER:0.59000003;RIGHT:1.139
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.643;CENTER:0.68700004;RIGHT:1.139
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.65800005;CENTER:0.744;RIGHT:0.75000006
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.65800005;CENTER:0.72800004;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.70600003;CENTER:0.66800004;RIGHT:0.698
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.70400006;CENTER:0.679;RIGHT:0.698
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.702;CENTER:0.68100005;RIGHT:0.33400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.698;CENTER:0.679;RIGHT:0.35700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.96800005;CENTER:0.64500004;RIGHT:0.68100005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.96800005;CENTER:0.64500004;RIGHT:0.58000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.82500005;CENTER:0.536;RIGHT:0.63500005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.85700005;CENTER:0.64500004;RIGHT:0.65400004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.827;CENTER:0.66;RIGHT:0.643
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.841;CENTER:0.65800005;RIGHT:0.61700004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.81200004;CENTER:0.64500004;RIGHT:0.588
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.804;CENTER:0.326;RIGHT:0.573
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.76400006;CENTER:0.51000005;RIGHT:0.536
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.78000003;CENTER:0.504;RIGHT:0.546
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.78400004;CENTER:0.326;RIGHT:0.546
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.90300006;CENTER:0.47900003;RIGHT:0.54
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.42000002;CENTER:0.61800003;RIGHT:0.537
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36100003;CENTER:0.61700004;RIGHT:0.51000005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.57000005;CENTER:0.56100005;RIGHT:0.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.56700003;CENTER:0.554;RIGHT:0.492
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.90200007;CENTER:0.55300003;RIGHT:0.49
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89400005;CENTER:0.321;RIGHT:0.46400002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.89300007;CENTER:0.321;RIGHT:0.44300002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.82500005;CENTER:0.666;RIGHT:0.42000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.42000002;CENTER:0.61700004;RIGHT:0.404
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.51900005;CENTER:0.60300004;RIGHT:0.38000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.586;RIGHT:0.37600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.563;RIGHT:0.35500002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.34;CENTER:0.54200006;RIGHT:0.347
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.34;CENTER:0.326;RIGHT:0.32900003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.328;CENTER:0.38000003;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.73;CENTER:0.37600002;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.69600004;CENTER:0.321;RIGHT:0.28
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.37600002;CENTER:0.321;RIGHT:0.23700002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.37;CENTER:0.326;RIGHT:0.20600002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.632;CENTER:0.18900001;RIGHT:0.21100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.60700005;CENTER:0.27100003;RIGHT:0.19100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.595;CENTER:0.326;RIGHT:0.17
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.33;CENTER:0.321;RIGHT:0.16600001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.33;CENTER:0.326;RIGHT:0.14500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.294;RIGHT:0.13000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.13800001;CENTER:0.259;RIGHT:0.09900001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.13900001;CENTER:0.23700002;RIGHT:0.082
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.11400001;CENTER:0.21900001;RIGHT:0.058000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.113000005;CENTER:0.19500001;RIGHT:0.051000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.112;CENTER:0.185;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.157;CENTER:0.16600001;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.12100001;CENTER:0.14500001;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.10300001;CENTER:0.143;RIGHT:2.5
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.078;CENTER:0.15400001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.059000004;CENTER:0.32200003;RIGHT:2.5
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.031000001;CENTER:0.22000001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.031000001;CENTER:0.23300001;RIGHT:2.5
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.038000003;CENTER:0.21300001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.038000003;CENTER:0.21300001;RIGHT:2.5
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.040000003;CENTER:0.21700001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.044000003;CENTER:0.21700001;RIGHT:2.5
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.040000003;CENTER:2.5;RIGHT:0.321
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.049000002;CENTER:2.5;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.046000004;CENTER:0.13000001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.044000003;CENTER:0.128;RIGHT:2.5
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.032;CENTER:2.5;RIGHT:2.5
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.031000001;CENTER:0.23700002;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.5;CENTER:0.23700002;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.031000001;CENTER:0.23700002;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.031000001;CENTER:0.21100001;RIGHT:1.297
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.031000001;CENTER:0.209;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.038000003;CENTER:0.209;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.038000003;CENTER:0.21300001;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.040000003;CENTER:0.21300001;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.5;CENTER:0.22000001;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:2.5;CENTER:0.22000001;RIGHT:1.286
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.038000003;CENTER:0.21700001;RIGHT:0.416
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.059000004;CENTER:0.21300001;RIGHT:0.416
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.057000004;CENTER:0.20700002;RIGHT:0.416
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.057000004;CENTER:0.20700002;RIGHT:0.416
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.057000004;CENTER:0.20700002;RIGHT:0.416
+At goal
+Training step: currentMove is FORWARD
+LEFT:0.057000004;CENTER:2.5;RIGHT:0.77300006
+At goal
+Training step: currentMove is FORWARD
+LEFT:2.5;CENTER:2.5;RIGHT:0.78000003
+Exploring
+Training step: currentMove is FORWARD
+LEFT:0.030000001;CENTER:0.22000001;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.030000001;CENTER:0.20400001;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.030000001;CENTER:0.20400001;RIGHT:0.78000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.20400001;RIGHT:1.297
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.22800002;RIGHT:1.297
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.22000001;RIGHT:1.297
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32000002;CENTER:0.22700001;RIGHT:0.551
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.23500001;RIGHT:0.70500004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.164;RIGHT:0.70500004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.22000001;RIGHT:0.70500004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.19800001;CENTER:0.22000001;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.055000003;CENTER:0.018000001;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32900003;CENTER:0.018000001;RIGHT:0.326
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.328;CENTER:0.018000001;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.018000001;RIGHT:0.326
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.018000001;CENTER:0.072000004;RIGHT:0.67700005
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.044000003;CENTER:0.20400001;RIGHT:0.040000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.018000001;CENTER:0.19700001;RIGHT:0.185
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.036000002;CENTER:0.21900001;RIGHT:0.046000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.030000001;CENTER:0.21900001;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.05;CENTER:0.21900001;RIGHT:0.040000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.036000002;CENTER:0.21900001;RIGHT:0.16600001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.030000001;CENTER:0.11400001;RIGHT:0.17400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.031000001;CENTER:0.086;RIGHT:0.164
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.036000002;CENTER:0.086;RIGHT:0.16600001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.040000003;CENTER:0.086;RIGHT:0.17400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.040000003;CENTER:0.093;RIGHT:0.172
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.046000004;CENTER:0.086;RIGHT:0.17400001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.057000004;CENTER:0.086;RIGHT:0.17500001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.063;CENTER:0.086;RIGHT:0.17300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.074;CENTER:0.093;RIGHT:0.157
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.072000004;CENTER:0.091000006;RIGHT:0.16600001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.10700001;CENTER:0.091000006;RIGHT:0.13000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.11400001;CENTER:0.093;RIGHT:0.19100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36600003;CENTER:0.094000004;RIGHT:0.149
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.094000004;RIGHT:0.149
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.35700002;CENTER:0.078;RIGHT:0.101
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.040000003;RIGHT:0.05
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.33400002;CENTER:0.049000002;RIGHT:0.057000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.32900003;CENTER:0.051000003;RIGHT:0.059000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.347;CENTER:0.05;RIGHT:0.055000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.37;CENTER:0.055000003;RIGHT:0.051000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.559;CENTER:0.059000004;RIGHT:0.044000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.555;CENTER:0.059000004;RIGHT:0.044000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.067;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.067;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.56100005;CENTER:0.072000004;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.551;CENTER:0.057000004;RIGHT:0.036000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.536;CENTER:0.036000002;RIGHT:0.05
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53400004;CENTER:0.032;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.18400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.028;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36600003;CENTER:0.032;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.536;CENTER:0.032;RIGHT:0.046000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.063
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.063
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.028;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.076000005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.537;CENTER:0.030000001;RIGHT:0.164
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.532;CENTER:0.030000001;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.076000005
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.35300002;CENTER:0.032;RIGHT:0.17300001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.537;CENTER:0.030000001;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.179
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.028;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.032;RIGHT:0.17500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.17500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.37600002;CENTER:0.030000001;RIGHT:0.038000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53800005;CENTER:0.032;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.036000002;RIGHT:0.18400002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.411;CENTER:0.032;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.537;CENTER:0.031000001;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.544;CENTER:0.036000002;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.546;CENTER:0.038000003;RIGHT:0.024
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.544;CENTER:0.049000002;RIGHT:0.022000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.551;CENTER:0.046000004;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54;CENTER:0.031000001;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.038000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.33;CENTER:0.032;RIGHT:0.17500001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.038000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.33400002;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.32900003;CENTER:0.036000002;RIGHT:0.18300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.536;CENTER:0.032;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54200006;CENTER:0.031000001;RIGHT:0.036000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.544;CENTER:0.036000002;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.040000003;RIGHT:0.024
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.544;CENTER:0.051000003;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.55300003;CENTER:0.05;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.55300003;CENTER:0.067;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.555;CENTER:0.063;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.563;CENTER:0.072000004;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.563;CENTER:0.072000004;RIGHT:0.036000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.53800005;CENTER:0.040000003;RIGHT:0.024
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.051000003;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.551;CENTER:0.049000002;RIGHT:0.040000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.551;CENTER:0.055000003;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.55300003;CENTER:0.063;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.56100005;CENTER:0.058000002;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.072000004;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54;CENTER:0.040000003;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36200002;CENTER:0.032;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.32200003;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.072000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.067
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.072000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.33;CENTER:0.030000001;RIGHT:0.063
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.18100001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.36600003;CENTER:0.030000001;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.36100003;CENTER:0.032;RIGHT:0.17300001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.53400004;CENTER:0.032;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54;CENTER:0.031000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.544;CENTER:0.040000003;RIGHT:0.024
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.546;CENTER:0.044000003;RIGHT:0.022000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53400004;CENTER:0.032;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.028;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.08400001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.33400002;CENTER:0.030000001;RIGHT:0.046000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.031000001;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.38300002;CENTER:0.030000001;RIGHT:0.031000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.537;CENTER:0.032;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54200006;CENTER:0.040000003;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.040000003;RIGHT:0.024
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.544;CENTER:0.051000003;RIGHT:0.022000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.551;CENTER:0.05;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.55300003;CENTER:0.055000003;RIGHT:0.032
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.555;CENTER:0.063;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.56100005;CENTER:0.072000004;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.57600003;CENTER:0.08400001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.578;CENTER:0.091000006;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.091000006;RIGHT:0.321
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54200006;CENTER:0.049000002;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53800005;CENTER:0.032;RIGHT:0.049000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.063
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.032;RIGHT:0.063
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54200006;CENTER:0.044000003;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.055000003;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.55300003;CENTER:0.063;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.030000001;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.559;CENTER:0.067;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.537;CENTER:0.040000003;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.53800005;CENTER:0.044000003;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.046000004;RIGHT:0.040000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.051000003;RIGHT:0.040000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.555;CENTER:0.059000004;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.555;CENTER:0.051000003;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.559;CENTER:0.067;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.56100005;CENTER:0.076000005;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54200006;CENTER:0.055000003;RIGHT:2.5
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.532;CENTER:0.036000002;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.032
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.038000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.33600003;CENTER:0.032;RIGHT:0.046000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.53800005;CENTER:0.030000001;RIGHT:0.046000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.53800005;CENTER:0.038000003;RIGHT:0.044000003
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54;CENTER:0.040000003;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54200006;CENTER:0.044000003;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.046000004;RIGHT:0.067
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.546;CENTER:0.05;RIGHT:0.038000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.546;CENTER:0.057000004;RIGHT:0.036000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.554;CENTER:0.058000002;RIGHT:0.028
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.54200006;CENTER:0.049000002;RIGHT:2.5
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.051000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.397;CENTER:0.032;RIGHT:0.179
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.536;CENTER:0.032;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.36100003;CENTER:0.030000001;RIGHT:0.17300001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.046000004
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.33600003;CENTER:0.032;RIGHT:0.046000004
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.53800005;CENTER:0.032;RIGHT:0.055000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.54200006;CENTER:0.031000001;RIGHT:0.049000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.527;CENTER:0.038000003;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.040000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.07700001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Exploring
+Training step: currentMove is LEFT
+LEFT:0.326;CENTER:0.028;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.030000001;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.321;CENTER:0.030000001;RIGHT:0.055000003
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.031000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.017
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.023000002
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.028
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+Planning
+Training step: currentMove is FORWARD
+LEFT:0.326;CENTER:0.0;RIGHT:0.030000001
+264.02 hz (74364 cycles / 281659 ms)
+Touches: 298/74364 (  0.40%)
