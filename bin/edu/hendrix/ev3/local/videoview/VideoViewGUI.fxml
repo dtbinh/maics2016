@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hendrix.ev3.local.videoview.VideoViewController">
+   <center>
+      <Canvas fx:id="canv" height="424.0" width="425.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <VBox>
+         <children>
+            <HBox BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="goLeft" mnemonicParsing="false" text="&lt;" />
+                  <Button fx:id="goRight" mnemonicParsing="false" text="&gt;" />
+                  <Slider fx:id="howFar" majorTickUnit="24.0" min="1.0" prefHeight="16.0" prefWidth="102.0" value="1.0" />
+                  <Label fx:id="positionInList" text="/" />
+                  <Label fx:id="currentMove" text="Move" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Button fx:id="animate" mnemonicParsing="false" text="&gt;&gt;" />
+                  <Button fx:id="stopAnimation" mnemonicParsing="false" text="||" />
+                  <Slider fx:id="frameRate" majorTickUnit="29.0" max="30.0" min="1.0" showTickLabels="true" showTickMarks="true" value="10.0" />
+               </children>
+            </HBox>
+            <TextField fx:id="messages" />
+         </children>
+      </VBox>
+   </bottom>
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox>
+               <children>
+                  <Button fx:id="reset" mnemonicParsing="false" text="Reset" />
+                  <Label text="Session" />
+                  <ChoiceBox fx:id="sessionChoice" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label text="Move" />
+                  <ChoiceBox fx:id="moveChoice" />
+                  <CheckBox fx:id="useAllMoves" mnemonicParsing="false" text="All moves" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
