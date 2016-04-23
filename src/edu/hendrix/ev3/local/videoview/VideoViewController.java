@@ -7,6 +7,7 @@ import java.util.function.IntSupplier;
 import java.util.concurrent.ArrayBlockingQueue;
 
 import edu.hendrix.ev3.ai.TrainingList;
+import edu.hendrix.ev3.ai.bsoc.BoundedSelfOrgCluster;
 import edu.hendrix.ev3.ai.Move;
 import edu.hendrix.ev3.storage.VideoStorage;
 import javafx.util.Duration;
@@ -23,6 +24,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import edu.hendrix.ev3.ai.cluster.AdaptedYUYVImage;
+import edu.hendrix.ev3.ai.cluster.YUYVDistanceFuncs;
 import edu.hendrix.ev3.util.Duple;
 
 public class VideoViewController {
@@ -72,6 +74,23 @@ public class VideoViewController {
 	private TrainingList examples;
 	private int current;
 	private Timeline animator;
+	
+	@FXML
+	Canvas idealVisual;
+	@FXML
+	Button train;
+	@FXML
+	TextField numNodes;
+	@FXML
+	Button nextNode;
+	@FXML
+	TextField currentNode;
+	@FXML
+	Button prevNode;
+	@FXML
+	CheckBox showNode;
+	
+	BoundedSelfOrgCluster<AdaptedYUYVImage> trained;
 
 	@FXML
 	void initialize() {
@@ -210,6 +229,9 @@ public class VideoViewController {
 			placeOnCanvas(currentFrame(), canv);
 			updateCurrentMsg();
 			currentMove.setText(currentMove().toString());
+			if (showNode.isSelected()) {
+				goBestNode();
+			}
 		}
 	}
 	
@@ -227,5 +249,52 @@ public class VideoViewController {
 				g.fillRect(x * cellWidth, y * cellHeight, cellWidth, cellHeight);
 			}
 		}
+	}
+	
+	@FXML
+	void train() {
+		try {
+			int nodes = Integer.parseInt(numNodes.getText());
+			trained = new BoundedSelfOrgCluster<>(nodes, YUYVDistanceFuncs::euclideanAllChannels);
+			for (Duple<Move, AdaptedYUYVImage> img: examples) {
+				trained.train(img.getSecond());
+			}
+			showTrainedNode(0);
+		} catch (NumberFormatException nfe) {
+			numNodes.setText(numNodes.getText() + ": not an integer");
+		}
+	}
+	
+	void showTrainedNode(int node) {
+		if (trained != null && node >= 0 && node < trained.size()) {
+			currentNode.setText(Integer.toString(node));
+			placeOnCanvas(trained.getIdealInputFor(node), idealVisual);
+		}
+	}
+	
+	@FXML
+	void handleUpdatedNode() {
+		try {
+			showTrainedNode(Integer.parseInt(currentNode.getText()));
+		} catch (NumberFormatException nfe) {
+			numNodes.setText(numNodes.getText() + ": not an integer");
+		}
+	}
+	
+	@FXML
+	void goNextNode() {
+		int updated = (1 + Integer.parseInt(currentNode.getText())) % trained.size();
+		showTrainedNode(updated);
+	}
+	
+	@FXML
+	void goPrevNode() {
+		int updated = (Integer.parseInt(currentNode.getText()) - 1 + trained.size()) % trained.size();
+		showTrainedNode(updated);
+	}
+	
+	@FXML
+	void goBestNode() {
+		showTrainedNode(trained.getClosestMatchFor(currentFrame()));
 	}
 }

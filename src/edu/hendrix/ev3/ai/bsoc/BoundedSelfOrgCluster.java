@@ -1,15 +1,13 @@
 package edu.hendrix.ev3.ai.bsoc;
 
 import java.util.ArrayList;
-import java.util.BitSet;
-import java.util.Map.Entry;
-import java.util.TreeMap;
 
 import edu.hendrix.ev3.ai.cluster.Clusterable;
 import edu.hendrix.ev3.ai.cluster.Clusterer;
 import edu.hendrix.ev3.ai.cluster.DistanceFunc;
 import edu.hendrix.ev3.util.DeepCopyable;
 import edu.hendrix.ev3.util.Duple;
+import edu.hendrix.ev3.util.FixedSizeArray;
 import edu.hendrix.ev3.util.Util;
 
 import java.util.TreeSet;
@@ -26,11 +24,9 @@ import java.util.function.Function;
 
 public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> implements Clusterer<T>, DeepCopyable<BoundedSelfOrgCluster<T>> {
 	// Object state
-	private TreeMap<Integer,Node<T>> nodes;
+	private FixedSizeArray<Node<T>> nodes;
 	private ArrayList<TreeSet<Edge<T>>> nodes2edges;
 	private TreeSet<Edge<T>> edges;
-	private BitSet availableNodes;
-	private int maxNumNodes;
 	
 	// Higher-order function
 	private DistanceFunc<T> dist;
@@ -38,16 +34,17 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	// Notification
 	private ArrayList<BSOCListener> listeners = new ArrayList<>();
 	
+	// If this flag is true, this class implements BSOC1 from the paper.
+	// If this flag is false, this class implements BSOC2 from the paper.
 	public final static boolean BASIC_VERSION_MAICS = false;
 
 	@Override
 	public BoundedSelfOrgCluster<T> deepCopy() {
-		BoundedSelfOrgCluster<T> result = new BoundedSelfOrgCluster<>(maxNumNodes, dist);
-		result.availableNodes = this.availableNodes.get(0, this.availableNodes.size());
+		BoundedSelfOrgCluster<T> result = new BoundedSelfOrgCluster<>(size(), dist);
 		for (Edge<T> edge: this.edges) {
 			result.edges.add(edge.deepCopy());
 		}
-		DeepCopyable.copyFromInto(this.nodes, result.nodes);
+		result.nodes = this.nodes.deepCopy();
 		return result;
 	}
 
@@ -58,15 +55,12 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	
 	private void setupBasic(DistanceFunc<T> dist) {
 		this.dist = dist;
-		this.nodes = new TreeMap<>();
 		this.edges = new TreeSet<>();		
 		this.nodes2edges = new ArrayList<>();
 	}
 	
 	private void setupAvailable(int maxNumNodes) {
-		this.maxNumNodes = maxNumNodes;
-		availableNodes = new BitSet(maxNumNodes);
-		availableNodes.set(0, maxNumNodes);
+		this.nodes = new FixedSizeArray<>(maxNumNodes, t -> t.deepCopy());
 		Util.assertState(size() == 0, "size() should be zero, but is " + size());
 	}
 	
@@ -92,14 +86,8 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	
 	private void rebuildAvailable(String availStr) {
 		ArrayList<String> availability = Util.debrace(availStr);
-		maxNumNodes = Integer.parseInt(availability.get(0));
-		availableNodes = new BitSet(maxNumNodes);
-		availableNodes.clear();
-		if (availability.size() > 1) {
-			for (String av: availability.get(1).split(", ")) {
-				availableNodes.set(Integer.parseInt(av));
-			}		
-		}
+		int maxNumNodes = Integer.parseInt(availability.get(0));
+		this.nodes = new FixedSizeArray<>(maxNumNodes, t -> t.deepCopy());
 	}
 	
 	private void rebuildNodes(String nodeStr, Function<String,T> extractor) {
@@ -115,7 +103,7 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 		}
 	}
 	
-	public int size() {return maxNumNodes - availableNodes.cardinality();}
+	public int size() {return nodes.size();}
 	
 	public int getStartingLabel() {return 0;}
 	
@@ -140,10 +128,9 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	}
 	
 	private void createEdgesFor(int node) {
-		for (Entry<Integer, Node<T>> nodeEntry: nodes.entrySet()) {
-			int i = nodeEntry.getKey();
+		for (int i = nodes.getLowestInUse(); i < nodes.capacity(); i = nodes.nextInUse(i)) {
 			if (i != node) {
-				long distance = distance(nodeEntry.getValue(), nodes.get(node));
+				long distance = distance(nodes.get(i), nodes.get(node));
 				Edge<T> edge = new Edge<>(Math.min(i, node), Math.max(i, node), distance);
 				edges.add(edge);
 				nodes2edges.get(node).add(edge);
@@ -154,17 +141,16 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	
 	@Override
 	public int train(T example) {
-		if (availableNodes.cardinality() > 0) {
-			return addNewNode(example);
-		} else {
+		if (nodes.isFull()) {
 			return incorporateNewNode(example);
+		} else {
+			return addNewNode(example);
 		}
 	}
 	
 	private int addNewNode(T example) {
-		int where = availableNodes.nextSetBit(0);
+		int where = nodes.getLowestAvailable();
 		nodes.put(where, new Node<>(where, example));
-		availableNodes.clear(where);
 		nodes2edges.add(new TreeSet<>());
 		createEdgesFor(where);
 		notifyAdd(where);
@@ -179,7 +165,7 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 			merge(closestIndex, n -> n.mergedWith(example));
 		} else {
 			purge(smallest);
-			int available = availableNodes.nextSetBit(0);
+			int available = nodes.getLowestAvailable();
 			Util.assertState(available >= 0, "No nodes available");
 			insert(available, new Node<>(available, example));
 			notifyAdd(available);
@@ -194,20 +180,16 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 		removeAllEdgesFor(removed);
 		merge(absorber, n -> n.mergedWith(nodes.remove(removed)));
 		notifyReplace(removed, absorber);
-		availableNodes.set(removed);
 		Util.assertState(oldSize - 1 == size(), "Did not shrink");
 	}
 	
 	private void insert(int target, Node<T> node) {
-		Util.assertArgument(availableNodes.get(target), target + " not available");
 		removeAllEdgesFor(target);
 		nodes.put(target, node);
-		availableNodes.clear(target);
 		createEdgesFor(target);
 	}
 	
 	private void merge(int absorber, UnaryOperator<Node<T>> merger) {
-		availableNodes.set(absorber);
 		insert(absorber, merger.apply(nodes.get(absorber)));
 	}
 	
@@ -288,8 +270,7 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	public String toString() {
 		StringBuilder result = new StringBuilder();
 		result.append("{");
-		result.append(maxNumNodes);
-		result.append(availableNodes);
+		result.append(nodes.capacity());
 		result.append("}\n{");
 		for (Node<T> node: nodes.values()) {
 			result.append('{');

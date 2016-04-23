@@ -11,27 +11,48 @@
       <Canvas fx:id="canv" height="424.0" width="425.0" BorderPane.alignment="CENTER" />
    </center>
    <bottom>
-      <VBox>
+      <HBox>
          <children>
-            <HBox BorderPane.alignment="CENTER">
+            <VBox>
                <children>
-                  <Button fx:id="goLeft" mnemonicParsing="false" text="&lt;" />
-                  <Button fx:id="goRight" mnemonicParsing="false" text="&gt;" />
-                  <Slider fx:id="howFar" majorTickUnit="24.0" min="1.0" prefHeight="16.0" prefWidth="102.0" value="1.0" />
-                  <Label fx:id="positionInList" text="/" />
-                  <Label fx:id="currentMove" text="Move" />
+                  <HBox BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="goLeft" mnemonicParsing="false" text="&lt;" />
+                        <Button fx:id="goRight" mnemonicParsing="false" text="&gt;" />
+                        <Slider fx:id="howFar" majorTickUnit="24.0" min="1.0" prefHeight="16.0" prefWidth="102.0" value="1.0" />
+                        <Label fx:id="positionInList" text="/" />
+                        <Label fx:id="currentMove" text="Move" />
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Button fx:id="animate" mnemonicParsing="false" text="&gt;&gt;" />
+                        <Button fx:id="stopAnimation" mnemonicParsing="false" text="||" />
+                        <Slider fx:id="frameRate" majorTickUnit="29.0" max="30.0" min="1.0" showTickLabels="true" showTickMarks="true" value="10.0" />
+                     </children>
+                  </HBox>
+                  <TextField fx:id="messages" />
+                  <HBox>
+                     <children>
+                        <Label text="Nodes" />
+                        <TextField fx:id="numNodes" />
+                        <Button fx:id="train" mnemonicParsing="false" onAction="#train" text="Train" />
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Button fx:id="prevNode" mnemonicParsing="false" onAction="#goPrevNode" text="&lt;" />
+                        <TextField fx:id="currentNode" />
+                        <Button fx:id="nextNode" mnemonicParsing="false" onAction="#goNextNode" text="&gt;" />
+                     </children>
+                  </HBox>
+                  <Button mnemonicParsing="false" onAction="#goBestNode" text="Best Node Image" />
+                  <CheckBox fx:id="showNode" mnemonicParsing="false" text="Show Best Node" />
                </children>
-            </HBox>
-            <HBox>
-               <children>
-                  <Button fx:id="animate" mnemonicParsing="false" text="&gt;&gt;" />
-                  <Button fx:id="stopAnimation" mnemonicParsing="false" text="||" />
-                  <Slider fx:id="frameRate" majorTickUnit="29.0" max="30.0" min="1.0" showTickLabels="true" showTickMarks="true" value="10.0" />
-               </children>
-            </HBox>
-            <TextField fx:id="messages" />
+            </VBox>
+            <Canvas fx:id="idealVisual" height="200.0" width="200.0" />
          </children>
-      </VBox>
+      </HBox>
    </bottom>
    <top>
       <VBox BorderPane.alignment="CENTER">
