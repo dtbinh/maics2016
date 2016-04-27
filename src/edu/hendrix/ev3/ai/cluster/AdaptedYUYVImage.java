@@ -73,14 +73,21 @@ public class AdaptedYUYVImage extends YUYVImage implements DeepCopyable<AdaptedY
 		return pixel / (getWidth() * 2);
 	}
 	
+	public boolean canShrinkBy(int shrinkFactor) {
+		return getWidth() % shrinkFactor == 0 && getHeight() % shrinkFactor == 0;
+	}
+	
 	public AdaptedYUYVImage shrunken(int shrinkFactor) {
-		Util.assertArgument(getWidth() % shrinkFactor == 0 && getHeight() % shrinkFactor == 0, "Uneven shrinkage: " + shrinkFactor);
+		if (shrinkFactor == 1) {return this.deepCopy();}
+		Util.assertArgument(canShrinkBy(shrinkFactor), "Uneven shrinkage: " + shrinkFactor);
 		int totalShrink = shrinkFactor*shrinkFactor;
 		byte[] shrunken = new byte[pix.length / totalShrink];
 		int p = 0;
-		for (int i = 0; i < pix.length; i++) {
-			if (getRow(i) % shrinkFactor == 0 && getColumn(i) % (shrinkFactor * 2) <= 1) {
-				shrunken[p++] = pix[i];
+		for (int i = 0; i < pix.length; i+=4) {
+			if (getRow(i) % shrinkFactor == 0 && getColumn(i/4) % shrinkFactor == 0) {
+				for (int j = 0; j < 4; j++) {
+					shrunken[p++] = pix[i + j];
+				}
 			}
 		}
 		return new AdaptedYUYVImage(shrunken, getWidth() / shrinkFactor, getHeight() / shrinkFactor);

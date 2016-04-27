@@ -90,6 +90,9 @@ public class VideoViewController {
 	@FXML
 	CheckBox showNode;
 	
+	@FXML
+	ChoiceBox<Integer> shrink;
+	
 	BoundedSelfOrgCluster<AdaptedYUYVImage> trained;
 
 	@FXML
@@ -114,6 +117,13 @@ public class VideoViewController {
 		animate.setOnAction(event -> animate());
 		frameRate.valueProperty().addListener((obs,oldV,newV) -> animate());
 		stopAnimation.setOnAction(event -> pause());
+		
+		for (int i: new int[]{1, 2, 4, 8, 10, 20}) {
+			shrink.getItems().add(i);
+		}
+		shrink.getSelectionModel().select(0);
+		
+		shrink.getSelectionModel().selectedItemProperty().addListener((ov, oldv, newv) -> renderCurrent());
 	}
 	
 	void setUpChoice(ChoiceBox<String> choices, String[] src) {
@@ -215,7 +225,7 @@ public class VideoViewController {
 	}
 	
 	AdaptedYUYVImage currentFrame() {
-		AdaptedYUYVImage img = examples.get(current).getSecond();
+		AdaptedYUYVImage img = examples.get(current).getSecond().shrunken(shrink.getValue());
 		return img;
 	}
 	
@@ -257,7 +267,7 @@ public class VideoViewController {
 			int nodes = Integer.parseInt(numNodes.getText());
 			trained = new BoundedSelfOrgCluster<>(nodes, YUYVDistanceFuncs::euclideanAllChannels);
 			for (Duple<Move, AdaptedYUYVImage> img: examples) {
-				trained.train(img.getSecond());
+				trained.train(img.getSecond().shrunken(shrink.getValue()));
 			}
 			showTrainedNode(0);
 		} catch (NumberFormatException nfe) {
