@@ -5,14 +5,15 @@ import java.util.ArrayList;
 import edu.hendrix.ev3.ai.cluster.Clusterable;
 import edu.hendrix.ev3.ai.cluster.Clusterer;
 import edu.hendrix.ev3.ai.cluster.DistanceFunc;
+import edu.hendrix.ev3.ai.cluster.visualize.Version;
 import edu.hendrix.ev3.util.DeepCopyable;
 import edu.hendrix.ev3.util.Duple;
 import edu.hendrix.ev3.util.FixedSizeArray;
 import edu.hendrix.ev3.util.Util;
 
 import java.util.TreeSet;
-import java.util.function.UnaryOperator;
 import java.util.function.Function;
+import java.util.function.UnaryOperator;
 
 // This data structure is an adaptation of the idea of Agglomerative Clustering.
 // 
@@ -28,24 +29,31 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	private ArrayList<TreeSet<Edge<T>>> nodes2edges;
 	private TreeSet<Edge<T>> edges;
 	
+	public int maxNumNodes() {return WHICH.cleanedUp() ? nodes.capacity() - 1 : nodes.capacity();}
+	
 	// Higher-order function
 	private DistanceFunc<T> dist;
 	
 	// Notification
 	private ArrayList<BSOCListener> listeners = new ArrayList<>();
 	
-	// If this flag is true, this class implements BSOC1 from the paper.
-	// If this flag is false, this class implements BSOC2 from the paper.
-	public final static boolean BASIC_VERSION_MAICS = false;
+	// MAICS_1 is BSOC1 from the paper.
+	// MAICS_2 is BSOC2 from the paper.
+	// POST_MAICS reflects some post-MAICS cleanup and bug-fixing.
+	public static final Version WHICH = Version.POST_MAICS;
 
 	@Override
 	public BoundedSelfOrgCluster<T> deepCopy() {
 		BoundedSelfOrgCluster<T> result = new BoundedSelfOrgCluster<>(size(), dist);
+		deepCopyHelp(result);
+		return result;
+	}
+	
+	protected void deepCopyHelp(BoundedSelfOrgCluster<T> result) {
 		for (Edge<T> edge: this.edges) {
 			result.edges.add(edge.deepCopy());
 		}
 		result.nodes = this.nodes.deepCopy();
-		return result;
 	}
 
 	public BoundedSelfOrgCluster(int maxNumNodes, DistanceFunc<T> dist) {
@@ -60,13 +68,21 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	}
 	
 	private void setupAvailable(int maxNumNodes) {
-		this.nodes = new FixedSizeArray<>(maxNumNodes, t -> t.deepCopy());
+		if (WHICH.cleanedUp()) {
+			this.nodes = FixedSizeArray.make(maxNumNodes + 1);
+		} else {
+			this.nodes = FixedSizeArray.make(maxNumNodes);
+		}
 		Util.assertState(size() == 0, "size() should be zero, but is " + size());
 	}
 	
 	public BoundedSelfOrgCluster(String src, Function<String,T> extractor, DistanceFunc<T> dist) {
 		setupBasic(dist);
 		ArrayList<String> topLevel = Util.debrace(src);
+		fromStringHelp(topLevel, extractor);
+	}
+	
+	protected void fromStringHelp(ArrayList<String> topLevel, Function<String,T> extractor) {
 		rebuildAvailable(topLevel.get(0));
 		if (topLevel.size() > 1) {
 			rebuildNodes(topLevel.get(1), extractor);
@@ -74,6 +90,27 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 		if (topLevel.size() > 2) {
 			rebuildEdges(topLevel.get(2));
 		}
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder result = new StringBuilder();
+		result.append("{");
+		result.append(maxNumNodes());
+		result.append("}\n{");
+		nodes.doAll((i, v) -> {
+			result.append('{');
+			result.append(v);
+			result.append('}');
+		});
+		result.append("}\n{");
+		for (Edge<T> edge: edges) {
+			result.append('{');
+			result.append(edge.toString());
+			result.append('}');
+		}
+		result.append("}");
+		return result.toString();
 	}
 	
 	public boolean nodeExists(int node) {
@@ -87,7 +124,7 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	private void rebuildAvailable(String availStr) {
 		ArrayList<String> availability = Util.debrace(availStr);
 		int maxNumNodes = Integer.parseInt(availability.get(0));
-		this.nodes = new FixedSizeArray<>(maxNumNodes, t -> t.deepCopy());
+		setupAvailable(maxNumNodes);
 	}
 	
 	private void rebuildNodes(String nodeStr, Function<String,T> extractor) {
@@ -112,10 +149,10 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	}
 	
 	private long distance(Node<T> n1, Node<T> n2) {
-		if (BASIC_VERSION_MAICS) {
-			return dist.distance(n1.getCluster(), n2.getCluster());			
-		} else {
+		if (WHICH.weighted()) {
 			return Math.max(n1.getNumInputs(), n2.getNumInputs()) * dist.distance(n1.getCluster(), n2.getCluster());
+		} else {
+			return dist.distance(n1.getCluster(), n2.getCluster());			
 		}
 	}
 	
@@ -138,15 +175,62 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 			}
 		}
 	}
-	
+
 	@Override
 	public int train(T example) {
-		if (nodes.isFull()) {
-			return incorporateNewNode(example);
+		if (WHICH.cleanedUp()) {
+			int where = nodes.getLowestAvailable();
+			insert(new Node<>(where, example));
+			if (nodes.size() > maxNumNodes()) {
+				where = removeAndMerge();
+			}
+			notifyAdd(where);
+			Util.assertState(nodes.getHighestInUse() == nodes.size() - 1, "Not compact");
+			return where;
 		} else {
-			return addNewNode(example);
+			if (nodes.isFull()) {
+				return incorporateNewNode(example);
+			} else {
+				return addNewNode(example);
+			}
 		}
 	}
+	
+	// Helper methods for post-publication cleaned-up version
+	
+	private void insert(Node<T> example) {
+		nodes.put(example.getID(), example);
+		Util.assertState(example == nodes.get(example.getID()), "Went to the wrong place");
+		nodes2edges.add(new TreeSet<>());
+		createEdgesFor(example.getID());
+	}
+
+	private int removeAndMerge() {
+		Edge<T> smallest = edges.first();
+		Node<T> removedNode = removeNode(smallest.getNode2());
+		Node<T> absorberNode = removeNode(smallest.getNode1());
+		
+		Node<T> merged = absorberNode.mergedWith(removedNode);
+		insert(merged);
+		notifyReplace(removedNode.getID(), absorberNode.getID());
+		
+		int unused = removedNode.getID();
+		if (unused > nodes.getHighestInUse()) {
+			return absorberNode.getID();
+		} else {
+			Node<T> tooHighNode = removeNode(nodes.getHighestInUse());
+			tooHighNode.renumber(unused);
+			insert(tooHighNode);
+			return tooHighNode.getID();
+		}
+	}
+	
+	private Node<T> removeNode(int target) {
+		removeAllEdgesFor(target);
+		return nodes.remove(target);
+	}
+	
+	// Helper methods for published version
 	
 	private int addNewNode(T example) {
 		int where = nodes.getLowestAvailable();
@@ -193,6 +277,9 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 		insert(absorber, merger.apply(nodes.get(absorber)));
 	}
 	
+	
+	// Helper methods used by both
+
 	private void notifyAdd(int added) {
 		for (BSOCListener listener: listeners) {
 			listener.addingNode(added);
@@ -230,25 +317,28 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 		return true;
 	}
 	
-	public void shrink() {
-		purge(edges.first());
-	}
-	
 	@Override
 	public T getIdealInputFor(int node) {
 		Util.assertArgument(nodes.containsKey(node), "Node " + node + " not present");
 		return nodes.get(node).getCluster();
 	}
+	
+	public int getNumMergesFor(int node) {
+		Util.assertArgument(nodes.containsKey(node), "Node " + node + " not present");
+		return nodes.get(node).getNumInputs();
+	}
+	
+	public int getTotalSourceInputs() {
+		int total = 0;
+		for (Node<T> node: nodes.values()) {
+			total += node.getNumInputs();
+		}
+		return total;
+	}
 
 	@Override
 	public ArrayList<Integer> getClusterIds() {
-		ArrayList<Integer> result = new ArrayList<>();
-		for (int i = 0; i < nodes.size(); i++) {
-			if (nodeExists(i)) {
-				result.add(i);
-			}
-		}
-		return result;
+		return nodes.indices();
 	}
 
 	@Override
@@ -264,26 +354,5 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	@Override
 	public int hashCode() {
 		return toString().hashCode();
-	}
-	
-	@Override
-	public String toString() {
-		StringBuilder result = new StringBuilder();
-		result.append("{");
-		result.append(nodes.capacity());
-		result.append("}\n{");
-		for (Node<T> node: nodes.values()) {
-			result.append('{');
-			result.append(node);
-			result.append('}');
-		}
-		result.append("}\n{");
-		for (Edge<T> edge: edges) {
-			result.append('{');
-			result.append(edge.toString());
-			result.append('}');
-		}
-		result.append("}");
-		return result.toString();
 	}
 }

@@ -277,7 +277,7 @@ public class VideoViewController {
 	
 	void showTrainedNode(int node) {
 		if (trained != null && node >= 0 && node < trained.size()) {
-			currentNode.setText(Integer.toString(node));
+			currentNode.setText(Integer.toString(node) + " (inputs: " + trained.getNumMergesFor(node) + ")");
 			placeOnCanvas(trained.getIdealInputFor(node), idealVisual);
 		}
 	}
@@ -291,15 +291,19 @@ public class VideoViewController {
 		}
 	}
 	
+	int getCurrentNode() {
+		return Integer.parseInt(currentNode.getText().split(" ")[0]);
+	}
+	
 	@FXML
 	void goNextNode() {
-		int updated = (1 + Integer.parseInt(currentNode.getText())) % trained.size();
+		int updated = (1 + getCurrentNode()) % trained.size();
 		showTrainedNode(updated);
 	}
 	
 	@FXML
 	void goPrevNode() {
-		int updated = (Integer.parseInt(currentNode.getText()) - 1 + trained.size()) % trained.size();
+		int updated = (getCurrentNode() - 1 + trained.size()) % trained.size();
 		showTrainedNode(updated);
 	}
 	

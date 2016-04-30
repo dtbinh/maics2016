@@ -14,7 +14,7 @@ public class FixedSizeArrayTest {
 	
 	@Before
 	public void setup() {
-		target = new FixedSizeArray<>(CAPACITY, s -> s);
+		target = FixedSizeArray.makeImmutableType(CAPACITY);
 	}
 
 	@Test

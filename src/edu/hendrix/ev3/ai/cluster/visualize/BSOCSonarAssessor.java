@@ -20,8 +20,7 @@ public class BSOCSonarAssessor extends BSOCAssessor<ClusterableSonarState> {
 		}
 		
 		System.out.println("BSOCSonarAssessor");
-		if (BoundedSelfOrgCluster.BASIC_VERSION_MAICS) {System.out.println("Basic version");}
-		else {System.out.println("Weighted version");}
+		System.out.println("Version: " + BoundedSelfOrgCluster.WHICH);
 		System.out.println("numNodes: " + args[0]);
 		System.out.println("File:     " + args[1]);
 		

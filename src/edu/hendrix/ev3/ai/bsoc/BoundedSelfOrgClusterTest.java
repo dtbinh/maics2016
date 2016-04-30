@@ -22,12 +22,6 @@ public class BoundedSelfOrgClusterTest {
 	public void stringTest1() {
 		stringTest("{3}\n{{{0}{1}{0}}{{1}{1}{1}}{{2}{1}{4}}}\n{{0;1;1}{1;2;3}{0;2;4}}");
 	}
-	
-	@Test
-	public void shrinkTest1() {
-		bsoc1.shrink();
-		stringTest("{3}\n{{{0}{2}{0}}{{2}{1}{4}}}\n{{0;2;8}}");
-	}
 
 	@Test
 	public void stringTest2() {

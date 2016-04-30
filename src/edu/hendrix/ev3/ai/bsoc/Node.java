@@ -21,6 +21,10 @@ public class Node<T extends Clusterable<T> & DeepCopyable<T>> implements DeepCop
 		this.numInputSources = ancestors;
 	}
 	
+	void renumber(int newID) {
+		this.id = newID;
+	}
+	
 	Node(String src, Function<String,T> extractor) {
 		ArrayList<String> parts = Util.debrace(src);
 		id = Integer.parseInt(parts.get(0));
@@ -35,16 +39,16 @@ public class Node<T extends Clusterable<T> & DeepCopyable<T>> implements DeepCop
 	Node<T> mergedWith(T example) {
 		return mergedWith(example, 1);
 	}
-	
+
 	private Node<T> mergedWith(T example, int otherInputs) {
-		if (BoundedSelfOrgCluster.BASIC_VERSION_MAICS) {
-			return new Node<>(this.id, this.cluster.weightedCentroidWith(example, 1, 1), 2);			
-		} else {
+		if (BoundedSelfOrgCluster.WHICH.weighted()) {
 			return new Node<>(this.id, this.cluster.weightedCentroidWith(example, this.numInputSources, otherInputs),
 					this.numInputSources + otherInputs);
+		} else {
+			return new Node<>(this.id, this.cluster.weightedCentroidWith(example, 1, 1), 2);			
 		}
 	}
-	
+
 	@Override
 	public String toString() {
 		return "{" + id + "}{" + numInputSources + "}{" + cluster + "}";

@@ -23,8 +23,7 @@ public class BSOCVideoAssessor extends BSOCAssessor<AdaptedYUYVImage> {
 		}
 		
 		System.out.println("BSOCVideoAssessor");
-		if (BoundedSelfOrgCluster.BASIC_VERSION_MAICS) {System.out.println("Basic version");}
-		else {System.out.println("Weighted version");}
+		System.out.println("Version:  " + BoundedSelfOrgCluster.WHICH);
 		System.out.println("numNodes: " + args[0]);
 		System.out.println("File:     " + args[1]);
 		
