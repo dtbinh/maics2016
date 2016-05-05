@@ -151,7 +151,7 @@ public class AdaptedYUYVImage extends YUYVImage implements DeepCopyable<AdaptedY
 		checkCompatibleImages(img1, img2);
 		byte[] newPix = new byte[img2.getBytes().length];
 		for (int i = 0; i < newPix.length; i++) {
-			int combo = combiner.applyAsInt(Util.byteBits2Int(img1.pix[i]), Util.byteBits2Int(img2.pix[i]));
+			int combo = combiner.applyAsInt(Byte.toUnsignedInt(img1.pix[i]), Byte.toUnsignedInt(img2.pix[i]));
 			newPix[i] = (byte)combo;
 		}
 		return new AdaptedYUYVImage(newPix, img1.getWidth(), img1.getHeight());

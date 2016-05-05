@@ -11,11 +11,18 @@ import java.util.function.Supplier;
 
 public class Util {
 	
-	/**
-	 * Casts a byte to an int in the range [0, 255]
+	/** 
+	 * + 1 (mod n)
 	 */
-	public static int byteBits2Int(byte b) {
-		return ((int)b) & 0xFF;
+	public static int modUp(int x, int n) {
+		return (x + 1) % n;
+	}
+	
+	/**
+	 * - 1 (mod n)
+	 */
+	public static int modDown(int x, int n) {
+		return (x + n - 1) % n;
 	}
 	
 	/**
@@ -29,6 +36,20 @@ public class Util {
 			log += 1;
 		}
 		return log;
+	}
+	
+	/**
+	 * Purely integer exponentiation
+	 */
+	public static int pow(int base, int exp) {
+		assertArgument(exp >= 0, "No negative exponents");
+		if (exp == 0) {
+			return 1;
+		} else if (exp % 2 == 1) {
+			return base * pow(base, exp - 1);
+		} else {
+			return pow(base * base, exp / 2);
+		}
 	}
 	
 	/**

@@ -8,13 +8,11 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class GenericQuttingGUI extends Application {
-	private static int delay;
+public class GenericQuittingGUI extends Application {
 	private static String fxmlFilename;
 	
-	public static void setup(int delay, String fxmlFilename) {
-		GenericQuttingGUI.delay = delay;
-		GenericQuttingGUI.fxmlFilename = fxmlFilename;
+	public static void setup(String fxmlFilename) {
+		GenericQuittingGUI.fxmlFilename = fxmlFilename;
 	}
 	
 	@Override
@@ -28,14 +26,6 @@ public class GenericQuttingGUI extends Application {
 			Quittable controller = loader.getController();
 			primaryStage.setOnCloseRequest(we -> {
 				controller.quit(); 
-				try {
-					Thread.sleep(delay);
-				} catch (Exception e) { 
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} finally {
-					System.exit(0);
-				}
 			});
 		} catch (IOException e) {
 			e.printStackTrace();

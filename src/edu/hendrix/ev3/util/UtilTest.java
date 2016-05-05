@@ -7,14 +7,6 @@ import java.util.ArrayList;
 import org.junit.Test;
 
 public class UtilTest {
-	 
-	@Test
-	public void byteTest() {
-		for (int i = 0; i < 256; i++) {
-			byte b = (byte)i;
-			assertEquals(i, Util.byteBits2Int(b));
-		}
-	}
 
 	@Test
 	public void debraceTest() {
