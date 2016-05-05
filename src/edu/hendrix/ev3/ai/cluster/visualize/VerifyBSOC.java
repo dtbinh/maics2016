@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import edu.hendrix.ev3.ai.bsoc.BoundedSelfOrgCluster;
+import edu.hendrix.ev3.ai.bsoc.Version;
 import edu.hendrix.ev3.ai.cluster.AdaptedYUYVImage;
 
 public class VerifyBSOC {
@@ -36,7 +37,7 @@ public class VerifyBSOC {
 			targets[1][2] = 2.83849047368547744E17;
 		}
 		
-		if (BoundedSelfOrgCluster.WHICH == Version.POST_MAICS) {
+		if (BoundedSelfOrgCluster.WHICH == Version.POST_MAICS_2) {
 			targets[0][0] = 8.7846081325292173E17;
 			targets[0][1] = 5.2541838688893453E17;
 			targets[0][2] = 2.67185273213525696E17;

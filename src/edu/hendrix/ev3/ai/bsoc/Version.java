@@ -1,4 +1,4 @@
-package edu.hendrix.ev3.ai.cluster.visualize;
+package edu.hendrix.ev3.ai.bsoc;
 
 public enum Version {
 	MAICS_1 {
@@ -14,8 +14,15 @@ public enum Version {
 
 		@Override
 		public boolean weighted() {return true;}
+	
+	}, POST_MAICS_1 {
+		@Override
+		public boolean cleanedUp() {return true;}
+
+		@Override
+		public boolean weighted() {return false;}
 		
-	}, POST_MAICS {
+	}, POST_MAICS_2 {
 		@Override
 		public boolean cleanedUp() {return true;}
 

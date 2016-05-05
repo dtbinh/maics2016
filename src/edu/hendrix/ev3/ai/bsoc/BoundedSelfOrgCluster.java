@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import edu.hendrix.ev3.ai.cluster.Clusterable;
 import edu.hendrix.ev3.ai.cluster.Clusterer;
 import edu.hendrix.ev3.ai.cluster.DistanceFunc;
-import edu.hendrix.ev3.ai.cluster.visualize.Version;
 import edu.hendrix.ev3.util.DeepCopyable;
 import edu.hendrix.ev3.util.Duple;
 import edu.hendrix.ev3.util.FixedSizeArray;
@@ -39,8 +38,8 @@ public class BoundedSelfOrgCluster<T extends Clusterable<T> & DeepCopyable<T>> i
 	
 	// MAICS_1 is BSOC1 from the paper.
 	// MAICS_2 is BSOC2 from the paper.
-	// POST_MAICS reflects some post-MAICS cleanup and bug-fixing.
-	public static final Version WHICH = Version.POST_MAICS;
+	// POST_MAICS_1 and POST_MAICS_2 reflect some post-MAICS cleanup and bug-fixing.
+	public static final Version WHICH = Version.POST_MAICS_1;
 
 	@Override
 	public BoundedSelfOrgCluster<T> deepCopy() {
