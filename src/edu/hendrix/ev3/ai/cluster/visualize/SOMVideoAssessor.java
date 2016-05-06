@@ -17,7 +17,7 @@ public class SOMVideoAssessor extends SOMAssessor<AdaptedYUYVImage> {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		if (args.length < 3) {
-			System.out.println("Usage: java BSOCVideoAssessor numNodes width storageInt [-shuffle]");
+			System.out.println("Usage: java SOMVideoAssessor numNodes width storageInt [-shuffle]");
 			System.exit(1);
 		}
 		
